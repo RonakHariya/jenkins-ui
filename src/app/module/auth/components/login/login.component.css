@@ -1,0 +1,39 @@
+.text-boxfield1{
+    padding: 11px;
+}
+.text-boxfield2{
+    padding: 11px;
+}
+
+.showHidePasss{
+    position: absolute;
+    top: 58%;
+    right: 15%;
+    
+}
+
+.showHidePasss1{
+    position: absolute;
+    top: 56%;
+    right: 15%;
+    
+}
+.rem-section{
+    display: flex;
+}
+.loginh{
+    height:500px;
+}
+.forgot-pas{
+    cursor: pointer;
+}
+
+.danger{
+    color:red
+    }
+
+
+    .sign-in-btn:hover,.sign-in-btn:focus{
+        transform: scale(1.1);
+    }
+   

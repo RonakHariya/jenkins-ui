@@ -1,0 +1,61 @@
+<div class="login-parent ">
+    <div class="container-fluid loginh">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="text-center">
+                    <img src="assets/images/loginimg.png" class="login-img">
+                </div>
+            </div>
+            <div class="col-lg-6 bg-mob" style="background-image: 'assets/images/Rectangle7.png'">
+                <!-- <img src="assets/images/Rectangle 7.png" class="purple-rectangle"> -->
+                <!-- <img src="assets/images/Rectangle 13.png" class="yellow-rectangle"> -->
+                <form [formGroup]="createUser">
+              
+                <!-- card start-->
+                <div class="login-card-parent">
+                    <div class="card logincard">
+
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="assets/images/Aviate-Logo-Design-25012023-Final 1.png" class="card-logo">
+                            </div>
+                            <div class="sign-in">SIGN IN</div>
+                            <label class="username-label">Username</label>
+                            <div class=""><input type="text" id="username" formControlName="username"  class=" text-boxfield1 w-100"></div>
+                            <label class="password-label">Password</label>
+                            <div class=""><input   formControlName="password" id="password" [type]="showPassword ? 'text':'password'" class=" text-boxfield2 w-100"></div>
+                            <div class="rem-section">
+                                <input type="checkbox" class="remember-me" name="vehicle1"value="">
+                                
+                                    <div   *ngIf="showPassword" (click)="changePassword(false)" >
+                                    <i *ngIf="showPassword" class="fa fa-eye"  [ngClass]="{'showHidePasss1': invalidUser, 'showHidePasss': !invalidUser}"  aria-hidden="true"></i>
+                                </div>
+                                <div   *ngIf="!showPassword"   (click)="changePassword(true)" >
+                         <i class="fa fa-eye-slash"   [ngClass]="{'showHidePasss1': invalidUser, 'showHidePasss': !invalidUser}" (click)="showPassword=false" aria-hidden="true"></i> 
+                         </div>
+
+   
+                                <label for="" class="rem-me" id="remember-me">Remember Me</label><br>
+                            </div>
+              
+                                <label for=""  *ngIf="invalidUser" class="danger" id="remember-me">You have entered an invalid username or password</label><br>
+                            
+                            <div class="text-center"> 
+                                <button (click)="submit()" id="sign-in" class="sign-in-btn">SIGN IN</button></div>
+                            <div class="dont-have">Don’t have account yet? Sign up now</div>
+                            <div class="forgot-pas" (click)="forgotPassword()">Forgot Password</div>
+
+
+
+                        </div>
+                    </div>
+                    <!-- card end -->
+
+
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+
+</div>

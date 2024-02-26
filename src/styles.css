@@ -1,0 +1,1272 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.slider-section {
+    display: block;
+    /* background-image: url("assets/images/Property.jpg"); */
+    
+}
+
+.without-slider {
+    display: none;
+}
+
+.mod-section {
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 80px;
+    /* background-image: url("assets/images/Property.jpg"); */
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.ss {
+    /* background-image: url("assets/images/Component\ 1.png");
+height:100vh;
+width:100%;
+background-repeat: no-repeat;
+background-size: cover; */
+}
+
+.card-mod {
+    width: 100%;
+    height: 400px;
+    background: #FFFFFF;
+    border: 1px solid #37307D;
+    box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-bottom:40px;
+}
+
+.mod-img {
+    width: 100%;
+height: 170px;
+/* margin-bottom: 50px; */
+    /* margin-bottom: 50px; */
+}
+
+.customer-reln {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #37307D;
+
+}
+
+.customer-exp {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    min-height: 54px;
+    color: #888888;
+    margin-bottom: 15px;
+}
+
+.module-btn {
+    background: #37307D;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+    width: 150px;
+    height: 36px;
+    border: 1px solid #37307D;
+}
+
+.module-btn:focus {
+    outline-color: #37307D !important;
+}
+
+.mod-logo {
+    /* width: 585px; */
+    /* height: 200px; */
+    /* margin-bottom: -100px; */
+    background-size: cover;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #37307D;
+}
+
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 12px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px !important;
+    height: 40px !important;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #37307D !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media(min-width:768px) {
+    .mod-section {
+        justify-content: space-between;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 80px;
+        /* background-image: url("assets/images/Property.jpg"); */
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .ss {
+        /* background-image: url("assets/images/Component\ 1.png");*/
+height:100vh;
+width:100%;
+background-repeat: no-repeat;
+background-size: cover; 
+    }
+
+    .card-mod {
+        width: 200px;
+        height: 400px;
+        background: #FFFFFF;
+        border: 1px solid #37307D;
+        box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        /* margin-top: 100px; */
+        margin-bottom:40px;
+    }
+
+    .mod-img {
+        width: 100%;
+        height: 160px;
+        /* margin-bottom: 50px; */
+        object-fit: contain;
+    }
+
+    .customer-reln {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 10px;
+        color: #37307D;
+
+    }
+
+    .customer-exp {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        min-height: 54px;
+        color: #888888;
+        margin-bottom: 15px;
+    }
+
+    .module-btn {
+        background: #37307D;
+        border-radius: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+
+        color: #FFFFFF;
+        width: 150px;
+        height: 36px;
+        border: 1px solid #37307D;
+    }
+
+    .module-btn:focus {
+        outline-color: #37307D !important;
+    }
+
+    .mod-logo {
+        /* width: 585px;
+        height: 200px;
+        margin-bottom: -100px; */
+        background-size:cover;
+    }
+
+}
+@media(min-height:657px){
+
+}
+
+@media(min-width:1600px) {
+ .without-slider{
+    max-width: 1140px;
+    margin: auto;
+}
+    .mod-section {
+        justify-content: space-between;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 80px;
+        /* background-image: url("assets/images/Property.jpg"); */
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .ss {
+        /* background-image: url("assets/images/Component\ 1.png");
+height:100vh;
+width:100%;
+background-repeat: no-repeat;
+background-size: cover; */
+    }
+
+    .card-mod {
+        width: 240px;
+        height: 400px;
+        background: #FFFFFF;
+        border: 1px solid #37307D;
+        box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        /* margin-top: 100px; */
+    }
+
+    .mod-img {
+        width: 100%;
+        height: auto;
+        /* margin-bottom: 50px; */
+    }
+
+    .customer-reln {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 10px;
+        color: #37307D;
+
+    }
+
+    .customer-exp {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        min-height: 78px;
+        color: #888888;
+        margin-bottom: 15px;
+    }
+
+    .module-btn {
+        background: #37307D;
+        border-radius: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+
+        color: #FFFFFF;
+        width: 150px;
+        height: 36px;
+        border: 1px solid #37307D;
+    }
+
+    .module-btn:focus {
+        outline-color: #37307D !important;
+    }
+
+    .mod-logo {
+        /* width: 585px;
+        height: 200px;
+        margin-bottom: -100px; */
+        background-size: cover;
+    }
+
+    .slider-section {
+        display: none;
+    }
+
+    .without-slider {
+        display: block;
+    }
+}
+
+@media(min-width:1350px) {
+    .mod-section {
+        justify-content: space-between;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 80px;
+        /* background-image: url("assets/images/Property.jpg"); */
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .ss {
+        /* background-image: url("assets/images/Component\ 1.png");
+height:100vh;
+width:100%;
+background-repeat: no-repeat;
+background-size: cover; */
+    }
+
+    .card-mod {
+        width: 288px;
+        /* height: 450px; */
+        background: #FFFFFF;
+        border: 1px solid #37307D;
+        box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        /* margin-top: 100px; */
+    }
+
+    .mod-img {
+        width: 200px;
+        height: 144px;
+        /* margin-bottom: 50px; */
+        /* margin-top:20px; */
+    }
+
+    .customer-reln {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 10px;
+        color: #37307D;
+
+    }
+
+    .customer-exp {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        min-height: 54px;
+        color: #888888;
+        margin-bottom: 15px;
+    }
+
+    .module-btn {
+        background: #37307D;
+        border-radius: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+
+        color: #FFFFFF;
+        width: 150px;
+        height: 36px;
+        border: 1px solid #37307D;
+    }
+
+    .module-btn:focus {
+        outline-color: #37307D !important;
+    }
+
+    .mod-logo {
+       /* background-size: cover;
+        width: 38%;
+        height: 200px;
+        margin-bottom: -100px; */
+    }
+
+    .slider-section {
+        display: none;
+    }
+
+    .without-slider {
+        display: block;
+    }
+}
+@media(min-width:1500px){
+    .mod-section {
+        justify-content: space-between;
+        padding-left: 90px !important;
+        padding-right: 90px !important;
+        padding-bottom: 80px;
+        /* background-image: url("assets/images/Property.jpg"); */
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    .card-mod {
+        width: 288px;
+        /* height: 450px; */
+        background: #FFFFFF;
+        border: 1px solid #37307D;
+        box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        /* margin-top: 100px; */
+    }
+}
+@media(min-width:1700px){
+    .mod-section {
+
+        justify-content: space-between;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 80px;
+        /* background-image: url("assets/images/Property.jpg"); */
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    .card-mod {
+        width: 240px;
+        /* height: 450px; */
+        background: #FFFFFF;
+        border: 1px solid #37307D;
+        box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        /* margin-top: 100px; */
+    }
+}
+
+@media(min-width:1800px){
+    .mod-section {
+
+        justify-content: space-between;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 80px;
+        /* background-image: url("assets/images/Property.jpg"); */
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+.purple-rectangle{
+    width:100%;
+    height:640px;
+    position:relative;
+    display: none;
+   
+}
+.login-img{
+    display:none;
+        height: 300px;
+        width: 400px;
+        margin-top: 150px;
+}
+.yellow-rectangle{
+    display:none;
+    /* position: absolute; */
+    /* right: 0px; */
+    top: 200px;
+    height: 240px;
+    width: 387px;
+}
+.logincard{
+    height:500px;
+    /* width:350px; */
+    border: 1px solid #37307D;
+box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+ position: relative;
+    /* top: 50px; */
+    /* right: 17px;  */
+    margin-top:25px;
+    
+}
+.card-body{
+   
+
+}
+
+.card-logo{
+    width:280px;
+    height:100px;
+}
+.sign-in{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 42px;
+color: #37307D;
+
+margin-bottom:10px;
+
+}
+.text-boxfield2{
+    border: 1px solid #37307D;
+    border-radius: 10px;
+    height:38px;
+}
+.text-boxfield2:focus{
+    outline-color: #37307D;
+    }
+.username-label{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+margin-bottom:7px;
+color: #37307D;
+}
+.password-label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom:7px;
+    color: #37307D;
+}
+.text-boxfield1{
+    margin-bottom:20px;
+    border: 1px solid #37307D !important;
+    border-radius: 10px;
+    height:38px;
+}
+.text-boxfield1:focus{
+outline-color: #37307D;
+}
+
+.rem-section{
+    margin-top:10px;
+    margin-left:10px;
+}
+
+  input[type=checkbox] {
+    accent-color:#D9D9D9; 
+   
+  }
+ 
+
+.rem-me{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 19px;
+color: #37307D;
+}
+.sign-in-btn{
+    background: #37307D;
+border-radius: 10px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+width: 300px;
+    height: 40px;
+    border:1px solid #37307D;
+    margin-top:15px;
+}
+.sign-in-btn:focus{
+    outline:none;
+}
+
+.dont-have{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 19px;
+text-align: center;
+color: #37307D;
+margin-top:10px;
+}
+.forgot-pas{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 19px;
+text-align: center;
+color: #37307D;
+margin-top:8px;
+
+}
+.bg-mob{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("assets/images/Rectangle7.png"); 
+    
+
+}
+@media(min-width:768px){
+  /* .login-card-parent{
+    background-image: url("assets/images/yellow.rectangle.png");
+    width: 500px;
+    background-size: cover;
+    background-repeat: round;
+    height: 300px;
+}
+   */
+    .logincard::before {
+        /* background-image: url("./../../../assets/images/Rectangle7.png"); */
+        /* content: url("assets/images/yellow.rectangle.png"); */
+        background-image: url("assets/images/befor-img.jpg");
+        content: " ";
+        height:200px;
+        width:30px;
+        z-index: 1;
+        position: absolute;
+        background-repeat: round;
+        top:130px;
+        left:-30px;
+        border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+        }
+        .logincard::after {
+            /* background-image: url("./../../../assets/images/Rectangle7.png"); */
+            /* content: url("assets/images/yellow.rectangle.png"); */
+            background-image: url("assets/images/befor-img.jpg"); 
+            content: " ";
+            height:200px;
+            width:30px;
+            z-index: 1;
+            position: absolute;
+            background-repeat: round;
+            top:130px;
+            right:-30px;
+            border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+            }
+    
+    .bg-mob{
+        height:100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-image: url("./../../../assets/images/Rectangle7.png"); */
+        /* background-image: url("assets/images/Rectangle7.png"); */
+        
+    
+    }
+    .purple-rectangle{
+        width:100%;
+        height:640px;
+        position:relative;
+        display:none;
+        object-fit: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .login-img{
+            height: 300px;
+            width: 400px;
+            margin-top: 150px;
+    }
+    .yellow-rectangle{
+        /* position: absolute;
+        right: 190px; */
+        top: 200px;
+        height: 240px;
+        width: 400px;
+        display:block;
+    }
+    .logincard{
+        height:500px;
+        width:350px;
+        border: 1px solid #37307D;
+    box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    position: relative;
+        /* top: 50px;
+        right: 217px; */
+        margin-top:25px;
+    }
+    .card-logo{
+        width:280px;
+        height:100px;
+    }
+    .sign-in{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #37307D;
+    margin-bottom:10px;
+    
+    }
+    .text-boxfield2{
+        border: 1px solid #37307D;
+        border-radius: 10px;
+        height:38px;
+    }
+    .text-boxfield2:focus{
+        outline-color: #37307D;
+        }
+    .username-label{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom:7px;
+    color: #37307D;
+    }
+    .password-label{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom:7px;
+        color: #37307D;
+    }
+    .text-boxfield1{
+        margin-bottom:20px;
+        border: 1px solid #37307D !important;
+        border-radius: 10px;
+        height:38px;
+    }
+    .text-boxfield1:focus{
+    outline-color: #37307D;
+    }
+    
+    .rem-section{
+        margin-top:10px;
+        margin-left:10px;
+    }
+    
+      input[type=checkbox] {
+        accent-color:#D9D9D9; 
+       
+      }
+     
+    
+    .rem-me{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: 3%;
+    color: #37307D;
+    }
+    .sign-in-btn{
+        background: #37307D;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    width: 300px;
+        height: 40px;
+        border:1px solid #37307D;
+        margin-top:15px;
+    }
+    .sign-in-btn:focus{
+        outline:none;
+    }
+    
+    .dont-have{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #37307D;
+    margin-top:10px;
+    }
+    .forgot-pas{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #37307D;
+    margin-top:8px;
+    
+    }
+    .bg-mob{
+        height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url("assets/images/Rectangle7.png"); */
+    /* background-image: url("./../../../assets/images/Rectangle7.png"); */
+    background-size: cover;
+    }
+}
+@media(min-width:1200px){
+    .mod-section {
+        justify-content: space-between;
+       
+        /* padding-bottom: 80px; */
+        /* background-image: url("assets/images/Property.jpg"); */
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        height:100vh;
+      }
+    
+    .mod-logo{
+        width:25%;
+        position: fixed;
+        top: 15%;    
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+    .bg-mob{
+        height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-image: url("assets/images/Rectangle7.png"); */
+    /* background-image: url("./../../../assets/images/Rectangle7.png"); */
+    background-size: cover;
+    }
+ .login-parent{
+    /* background-image: url("./../../../assets/images/Rectangle7.png"); */
+    /* background-image: url("assets/images/Rectangle\ 7.png");
+    background-size: cover;  */
+ }
+    .purple-rectangle{
+        width:100%;
+        height:640px;
+        position:relative;
+        display: block;
+    }
+    .login-img{
+        display: block;
+            height: 300px;
+            width: 400px;
+            margin-top: 150px;
+            margin-left:90px;
+    }
+    .yellow-rectangle{
+        display: block;
+        /* position: absolute;
+        right: 240px; */
+        top: 200px;
+        height: 240px;
+        width: 400px;
+    }
+    .logincard{
+        height:500px;
+        width:350px;
+        border: 1px solid #37307D;
+    box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    position: relative;
+        /* top: 50px;
+        right: 264px; */
+        margin-top:25px;
+    }
+    .card-logo{
+        width:280px;
+        height:100px;
+    }
+    .sign-in{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #37307D;
+    
+    margin-bottom:10px;
+    
+    }
+    .text-boxfield2{
+        border: 1px solid #37307D;
+        border-radius: 10px;
+        height:38px;
+    }
+    .text-boxfield2:focus{
+        outline-color: #37307D;
+        }
+    .username-label{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom:7px;
+    color: #37307D;
+    }
+    .password-label{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom:7px;
+        color: #37307D;
+    }
+    .text-boxfield1{
+        margin-bottom:20px;
+        border: 1px solid #37307D !important;
+        border-radius: 10px;
+        height:38px;
+    }
+    .text-boxfield1:focus{
+    outline-color: #37307D;
+    }
+    
+    .rem-section{
+        margin-top:10px;
+        margin-left:10px;
+    }
+    
+      input[type=checkbox] {
+        accent-color:#D9D9D9; 
+       
+      }
+     
+    
+    .rem-me{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #37307D;
+    }
+    .sign-in-btn{
+        background: #37307D;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    width: 300px;
+        height: 40px;
+        border:1px solid #37307D;
+        margin-top:15px;
+    }
+    .sign-in-btn:focus{
+        outline:none;
+    }
+    
+    .dont-have{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #37307D;
+    margin-top:10px;
+    }
+    .forgot-pas{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #37307D;
+    margin-top:8px;
+    }
+}
+@media(min-width:1350px){
+   
+    .purple-rectangle{
+        width:100%;
+        height:640px;
+        position:relative;
+    }
+    .login-img{
+            height: 300px;
+            width: 400px;
+            margin-top: 220px;
+    }
+    .yellow-rectangle{
+        /* *position: absolute; 
+         right: 369px;
+        top: 200px; */
+        height: 240px;
+        width: 400px;
+    }
+    .logincard{
+        height:500px;
+        width:350px;
+        border: 1px solid #37307D;
+    box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    position: relative;
+        /* top: 50px; */
+        /* right: 393px; */
+        margin-top:25px;
+        margin-left:-90px;
+    }
+    .card-logo{
+        width:280px;
+        height:100px;
+    }
+    .sign-in{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #37307D;
+    
+    margin-bottom:10px;
+    
+    }
+    .text-boxfield2{
+        border: 1px solid #37307D;
+        border-radius: 10px;
+        height:38px;
+    }
+    .text-boxfield2:focus{
+        outline-color: #37307D;
+        }
+    .username-label{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom:7px;
+    color: #37307D;
+    }
+    .password-label{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom:7px;
+        color: #37307D;
+    }
+    .text-boxfield1{
+        margin-bottom:20px;
+        border: 1px solid #37307D !important;
+        border-radius: 10px;
+        height:38px;
+    }
+    .text-boxfield1:focus{
+    outline-color: #37307D;
+    }
+    
+    .rem-section{
+        margin-top:10px;
+        margin-left:10px;
+    }
+    
+      input[type=checkbox] {
+        accent-color:#D9D9D9; 
+       
+      }
+     
+    
+    .rem-me{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #37307D;
+    }
+    .sign-in-btn{
+        background: #37307D;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    width: 300px;
+        height: 40px;
+        border:1px solid #37307D;
+        margin-top:15px;
+    }
+    .sign-in-btn:focus{
+        outline:none;
+    }
+    
+    .dont-have{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #37307D;
+    margin-top:10px;
+    }
+    .forgot-pas{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #37307D;
+    margin-top:8px;
+    }
+}
+@media(min-width:1700px){
+    .login-parent{
+        max-width:1200px;
+        margin: auto;
+    }
+    .purple-rectangle{
+        width:100%;
+        height:640px;
+        position:relative;
+    }
+    .login-img{
+            height: 300px;
+            width: 400px;
+            margin-top: 150px;
+    }
+    .yellow-rectangle{
+        /* position: absolute;
+        right: 599px; */
+        top: 200px;
+        height: 240px;
+        width: 400px;
+    }
+    .logincard{
+        height:500px;
+        width:350px;
+        border: 1px solid #37307D;
+    box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    position: relative;
+        /* top: 50px;
+        right: 623px; */
+        margin-top:25px;
+    }
+    .mod-logo{
+        width:25%;
+        position: fixed;
+        top: 15%;    
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+}
+@media(min-width:2000px){
+    .mod-section {
+
+        justify-content: space-between;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 80px;
+        /* background-image: url("assets/images/Property.jpg"); */
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    .mod-logo{
+        width:25%;
+        position: fixed;
+        top: 15%;    
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+    .yellow-rectangle{
+        /* position: absolute;
+        right: 661px; */
+        top: 200px;
+        height: 240px;
+        width: 400px;
+    }
+    .logincard{
+        height:500px;
+        width:350px;
+        border: 1px solid #37307D;
+    box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    /* position: absolute;
+        top: 50px;
+        right: 685px; */
+        margin-top:25px;
+    }
+}
+@media(min-width:2500px){
+    .yellow-rectangle{
+        /* position: absolute;
+        right: 1097px; */
+        top: 200px;
+        height: 240px;
+        width: 400px;
+    }
+    .logincard{
+        height:500px;
+        width:350px;
+        border: 1px solid #37307D;
+    box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    /* position: absolute;
+        top: 50px;
+        right: 1123px; */
+        margin-top:25px;
+    }
+}
+@media(min-width:4000px){
+    .yellow-rectangle{
+        /* position: absolute;
+        right: 1812px; */
+        top: 200px;
+        height: 240px;
+        width: 400px;
+    }
+    .logincard{
+        height:500px;
+        width:350px;
+        border: 1px solid #37307D;
+    box-shadow: 0px 9px 4px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    /* position: absolute;
+        top: 50px;
+        right: 1835px; */
+        margin-top:25px;
+    }
+}

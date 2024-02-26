@@ -1,0 +1,3 @@
+.module-btn:focus,.module-btn:hover{
+    transform: scale(1.1);
+}
