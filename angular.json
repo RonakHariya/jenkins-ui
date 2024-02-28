@@ -13,7 +13,7 @@
 				"build": {
 					"builder": "ngx-build-plus:browser",
 					"options": {
-						"outputPath": "dist/aviatecx-auth",
+						"outputPath": "dist/jenkins-demo-ui",
 						"index": "src/index.html",
 						"main": "src/main.ts",
 						"polyfills": [
