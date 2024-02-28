@@ -10,20 +10,20 @@ export class JenkinsService {
   constructor(private http: HttpClient) { }
 
   getTest(): Observable<string> {
-    return this.http.get('http://localhost:8081/jenkins/test', { responseType: 'text' });
+    return this.http.get('http://192.168.1.16:6050/jenkins/test', { responseType: 'text' });
   }
   
 
   createTest(): Observable<string> {
-    return this.http.post('http://localhost:8081/jenkins/test', {}, { responseType: 'text' });
+    return this.http.post('http://192.168.1.16:6050/jenkins/test', {}, { responseType: 'text' });
   }
 
   deleteTest(): Observable<string> {
-    return this.http.delete('http://localhost:8081/jenkins/test', { responseType: 'text' });
+    return this.http.delete('http://192.168.1.16:6050/jenkins/test', { responseType: 'text' });
   }
 
   updateTest(): Observable<string> {
-    return this.http.put('http://localhost:8081/jenkins/test', {}, { responseType: 'text' });
+    return this.http.put('http://192.168.1.16:6050/jenkins/test', {}, { responseType: 'text' });
   }
 
 
